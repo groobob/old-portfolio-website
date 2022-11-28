@@ -2,3 +2,12 @@ img
 {
 	border: 8px solid cornflowerblue;
 }
+p
+{
+	padding-left: 10px;
+}
+.kevinroaster
+{
+	size: 2;
+	font: arial;
+}

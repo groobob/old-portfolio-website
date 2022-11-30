@@ -30,10 +30,10 @@ body
 	font-size: 22px;
 }
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #1973C6;
+  color: aliceblue;
 }
 .topnav a.active {
   background-color: cornflowerblue;
-  color: white;
+  color: #D2EAFF;
 }

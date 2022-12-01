@@ -10,13 +10,17 @@ body
 {
 	background-color: aliceblue;
 }
+/*
 .test-box
 {
 	height: 1000px;
 	width: 100%;
+	padding: 100px;
 	background-color: aqua;
 	position: sticky, absolute;
+	border: 8px solid #D2EAFF;
 }
+*/
 .hero-image
 {
 	margin-top: -0.5vw;
@@ -52,6 +56,7 @@ body
 	overflow: hidden;
 	width: 100vw;
 	position: absolute, sticky;
+	position: -webkit-sticky;
 }
 .topnav a
 {

@@ -1,2 +1,2 @@
-Fix sticky positioning on top navigator
-Get hero banner working on the github io website
+Completed | Fix sticky positioning on top navigator
+In Progress | Get hero banner working on the github io website

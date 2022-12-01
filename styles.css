@@ -10,11 +10,20 @@ body
 {
 	background-color: aliceblue;
 }
+.test-box
+{
+	height: 1000px;
+	width: 100%;
+	background-color: aqua;
+	position: sticky, absolute;
+}
 .hero-image
 {
+	margin-top: -0.5vw;
+	margin-left: -0.5vw;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("penguinbanner.png");
 	height: 500px;
-	width: 100%;
+	width: 100vw;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -36,9 +45,12 @@ body
 }
 .topnav
 {
+	margin-top: -0.5vw;
+	margin-left: -0.5vw;
+	top: 0;
 	background: #333;
 	overflow: hidden;
-	width: 100%;
+	width: 100vw;
 	position: absolute, sticky;
 }
 .topnav a

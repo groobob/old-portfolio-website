@@ -39,7 +39,7 @@ body
 	background: #333;
 	overflow: hidden;
 	width: 100%;
-	position: fixed, absolute;
+	position: absolute, sticky;
 }
 .topnav a
 {

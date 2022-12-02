@@ -55,8 +55,9 @@ body
 	background: #333;
 	overflow: hidden;
 	width: 100vw;
-	position: absolute, sticky;
+	position: sticky;
 	position: -webkit-sticky;
+	z-index: 10;
 }
 .topnav a
 {
@@ -67,11 +68,13 @@ body
 	text-decoration: none;
 	font-size: 22px;
 }
-.topnav a:hover {
+.topnav a:hover 
+{
   background-color: #1973C6;
   color: aliceblue;
 }
-.topnav a.active {
+.topnav a.active 
+{
   background-color: cornflowerblue;
   color: #D2EAFF;
 }

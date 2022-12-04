@@ -1,0 +1,80 @@
+img 
+{
+	border: 8px solid cornflowerblue;
+}
+p
+{
+	padding-left: 10px;
+}
+body
+{
+	background-color: aliceblue;
+}
+/*
+.test-box
+{
+	height: 1000px;
+	width: 100%;
+	padding: 100px;
+	background-color: aqua;
+	position: sticky, absolute;
+	border: 8px solid #D2EAFF;
+}
+*/
+.hero-image
+{
+	margin-top: -0.5vw;
+	margin-left: -0.5vw;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("penguinbanner.png");
+	height: 500px;
+	width: 100vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.hero-text
+{
+	text-align: center;
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.kevinroaster
+{
+	size: 2;
+	font-family: helvetica;
+}
+.topnav
+{
+	margin-top: -0.5vw;
+	margin-left: -0.5vw;
+	top: 0;
+	background: #333;
+	overflow: hidden;
+	width: 100vw;
+	position: sticky;
+	position: -webkit-sticky;
+	z-index: 10;
+}
+.topnav a
+{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px 30px;
+	text-decoration: none;
+	font-size: 22px;
+}
+.topnav a:hover 
+{
+  background-color: #1973C6;
+  color: aliceblue;
+}
+.topnav a.active 
+{
+  background-color: cornflowerblue;
+  color: #D2EAFF;
+}

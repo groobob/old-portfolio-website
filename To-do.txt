@@ -1,7 +1,7 @@
 Completed | Fix sticky positioning on top navigator
 Completed | Get hero banner working on the github io website
-In Progress | Commenting code for organization
-To Do | Add/Figure out multiple elements on one row to website
+Completed | Commenting code for organization
+In Progress | Add/Figure out multiple elements on one row to website
 To Do | Add working subpage stylesheets
 To Do | Create a website layout to work off of
 To Do | Type out text for bodies of text and projects

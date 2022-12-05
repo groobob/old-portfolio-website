@@ -1,26 +1,11 @@
-img 
-{
-	border: 8px solid cornflowerblue;
-}
-p
-{
-	padding-left: 10px;
-}
+/*Setting background colour*/
 body
 {
 	background-color: aliceblue;
 }
-/*
-.test-box
-{
-	height: 1000px;
-	width: 100%;
-	padding: 100px;
-	background-color: aqua;
-	position: sticky, absolute;
-	border: 8px solid #D2EAFF;
-}
-*/
+
+/*VVVVV CLASSES GO BELOW VVVVV*/
+/*Class for the image banner at the front of the page*/
 .hero-image
 {
 	margin-top: -0.5vw;
@@ -33,6 +18,7 @@ body
 	background-size: cover;
 	position: relative;
 }
+/*Text that belongs in the image banner for the front page*/
 .hero-text
 {
 	text-align: center;
@@ -42,11 +28,13 @@ body
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+/*Class for body text/paragraphs*/
 .kevinroaster
 {
 	size: 2;
 	font-family: helvetica;
 }
+/*Class for the navigator at the top of each page*/
 .topnav
 {
 	margin-top: -0.5vw;
@@ -59,6 +47,7 @@ body
 	position: -webkit-sticky;
 	z-index: 10;
 }
+/*Class to determine the positioning and style of the text on the hero banner*/
 .topnav a
 {
 	float: left;
@@ -68,11 +57,13 @@ body
 	text-decoration: none;
 	font-size: 22px;
 }
+/*Functionality for hovering over page hyperlinks*/
 .topnav a:hover 
 {
   background-color: #1973C6;
   color: aliceblue;
 }
+/*Class for whichever page is the current active page on a page*/
 .topnav a.active 
 {
   background-color: cornflowerblue;

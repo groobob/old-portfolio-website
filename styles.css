@@ -12,7 +12,7 @@ body
 	margin-left: -0.5vw;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("penguinbanner.png");
 	height: 500px;
-	width: 100vw;
+	width: 99vw;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -28,6 +28,11 @@ body
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.subtitle-text
+{
+	text-align: center;
+	color: black;
+}
 /*Class for body text/paragraphs*/
 .kevinroaster
 {
@@ -42,12 +47,12 @@ body
 	top: 0;
 	background: #333;
 	overflow: hidden;
-	width: 100vw;
+	width: 99vw;
 	position: sticky;
 	position: -webkit-sticky;
 	z-index: 10;
 }
-/*Class to determine the positioning and style of the text on the hero banner*/
+/*Class to determine the positioning and style of the text on the top navigator*/
 .topnav > a
 {
 	float: left;

@@ -1,52 +1,17 @@
-img 
-{
-	border: 8px solid cornflowerblue;
-}
-p
-{
-	padding-left: 10px;
-}
+/*Setting background colour*/
 body
 {
 	background-color: aliceblue;
 }
-/*
-.test-box
-{
-	height: 1000px;
-	width: 100%;
-	padding: 100px;
-	background-color: aqua;
-	position: sticky, absolute;
-	border: 8px solid #D2EAFF;
-}
-*/
-.hero-image
-{
-	margin-top: -0.5vw;
-	margin-left: -0.5vw;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("penguinbanner.png");
-	height: 500px;
-	width: 100vw;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
-.hero-text
+
+/*VVVVV CLASSES GO BELOW VVVVV*/
+.subtitle-text
 {
 	text-align: center;
-	position: absolute;
-	color: white;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.kevinroaster
-{
-	size: 2;
+	color: black;
 	font-family: helvetica;
 }
+/*Class for the navigator at the top of each page*/
 .topnav
 {
 	margin-top: -0.5vw;
@@ -54,12 +19,13 @@ body
 	top: 0;
 	background: #333;
 	overflow: hidden;
-	width: 100vw;
+	width: 99vw;
 	position: sticky;
 	position: -webkit-sticky;
 	z-index: 10;
 }
-.topnav a
+/*Class to determine the positioning and style of the text on the top navigator*/
+.topnav > a
 {
 	float: left;
 	color: #f2f2f2;
@@ -68,13 +34,31 @@ body
 	text-decoration: none;
 	font-size: 22px;
 }
+/*Functionality for hovering over page hyperlinks*/
 .topnav a:hover 
 {
-  background-color: #1973C6;
-  color: aliceblue;
+	background-color: #1973C6;
+	color: aliceblue;
 }
+/*Class for whichever page is the current active page on a page*/
 .topnav a.active 
 {
-  background-color: cornflowerblue;
-  color: #D2EAFF;
+	background-color: cornflowerblue;
+	color: #D2EAFF;
 }
+/*
+.flex-container 
+{
+	display: flex;
+}
+
+.flex-container > div 
+{
+	background-color: white;
+	border: #333;
+	border-width: 2px;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+}
+*/

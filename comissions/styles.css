@@ -11,6 +11,12 @@ body
 	color: black;
 	font-family: helvetica;
 }
+/*Class for body text/paragraphs*/
+.body-text
+{
+	size: 2;
+	font-family: helvetica;
+}
 /*Class for the navigator at the top of each page*/
 .topnav
 {
